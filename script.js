@@ -1,5 +1,5 @@
 function cubeNumber(number) {
-    if(typeof number != "number"){
+    if(typeof number !== "number"){
         const errorMessage = "Provide a valid number!";
         return errorMessage;
     }
@@ -9,7 +9,6 @@ function cubeNumber(number) {
         return cube;
     }
 }
-
 
 
 function matchFinder(string1, string2) {
@@ -113,5 +112,4 @@ function canPay(changeArray, totalDue) {
     }
 
 }
-
 
